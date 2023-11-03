@@ -11,6 +11,8 @@ import XCTest
 final class HelloAppleTests: XCTestCase {
 
     func exampleTest() {
-        XCTAssert(ContentView(sum) != 0)
+        var name = "Capgemini"
+        var name1 = "Evan Delaney"
+        XCTAssert(name != name1)
     }
 }
