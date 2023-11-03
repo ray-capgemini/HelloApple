@@ -22,7 +22,7 @@ jobs:
           xcode-version: latest-stable
       - name: Build and Test
         run: |
-          xcodebuild test -scheme HelloApple -only-testing HelloAppleTests\HelloAppleTests
+          xcodebuild test -scheme HelloApple -only-testing HelloAppleTests/HelloAppleTests
 
           
 
