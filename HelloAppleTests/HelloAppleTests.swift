@@ -10,7 +10,7 @@ import XCTest
 
 final class HelloAppleTests: XCTestCase {
 
-    //func exampleTest() {
-    //    XCTAssert(ContentView(sum) != 0)
-    //}
+    func exampleTest() {
+        XCTAssert(ContentView(sum) != 0)
+    }
 }
