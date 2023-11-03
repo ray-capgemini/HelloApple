@@ -9,4 +9,8 @@ import XCTest
 @testable import HelloApple
 
 final class HelloAppleTests: XCTestCase {
+
+    //func exampleTest() {
+    //    XCTAssert(ContentView(sum) != 0)
+    //}
 }

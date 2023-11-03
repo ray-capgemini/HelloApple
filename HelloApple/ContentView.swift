@@ -10,6 +10,13 @@ import SwiftUI
 struct ContentView: View {
     
     var name: String
+    //var arrayAscii = [Int]()
+    //var sum = 0
+
+    //for num in myString.unicodeScalars
+    //{
+    //    sum += Int(num.value)
+    //}
     
     var body: some View {
         VStack {
@@ -17,6 +24,7 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.black)
             Text("Hello, \(name)")
+            //Text("The sum of ascii in your name is \(sum)")
         }
         .padding()
         .background(Color.blue)
