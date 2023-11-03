@@ -28,7 +28,7 @@ jobs:
           echo Using default scheme: $default
       - name: Build and Test
         run: |
-          xcodebuild test -list -scheme ${{ 'default' }} -only-testing HelloAppleTests/HelloAppleTests
+          xcodebuild test -scheme ${{ 'HelloApple' }} -only-testing HelloAppleTests/HelloAppleTests
 
           
 
